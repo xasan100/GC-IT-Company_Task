@@ -1,10 +1,10 @@
-import React, {  useState } from 'react';
+import React, { useState } from 'react';
 import { Form, } from 'antd';
 import { AddBox, AntTable, Box, Btnone, Container, Hero, HeroChilid, InputBox, NAV, TextBox } from './style.js';
 import { data } from '../../utils/data.js';
 
 import Img1 from "../assest/images/Group1.png"
-import Img2 from "../assest/images/Group2.png" 
+import Img2 from "../assest/images/Group2.png"
 import Img3 from "../assest/images/Group3.png"
 import Img4 from "../assest/images/Group4.png"
 
@@ -41,7 +41,8 @@ const Students = () => {
                     nomer: '(225) 555-0118',
                     Tolov: '597 000',
                     Guruh: ' Frontend 010',
-                    Status: <button>Active</button>
+                    Status: <button className="btncrud" >Active</button>
+
 
                 },
                 {
@@ -51,7 +52,8 @@ const Students = () => {
                     nomer: '(225) 555-0118',
                     Tolov: '597 000',
                     Guruh: ' Frontend 010',
-                    Status: <button>Active</button>
+                    Status: <button className="btncrudd" >Inactive</button>
+
 
 
                 },
@@ -62,7 +64,8 @@ const Students = () => {
                     nomer: '(225) 555-0118',
                     Tolov: '597 000',
                     Guruh: ' Frontend 010',
-                    Status: <button>Active</button>
+                    Status: <button className="btncrud" >Active</button>
+
 
                 },
                 {
@@ -72,7 +75,8 @@ const Students = () => {
                     nomer: '(225) 555-0118',
                     Tolov: '597 000',
                     Guruh: ' Frontend 010',
-                    Status: "Active"
+                    Status: <button className="btncrudd" >Inactive</button>
+
 
                 },
                 {
@@ -82,7 +86,8 @@ const Students = () => {
                     nomer: '(225) 555-0118',
                     Tolov: '597 000',
                     Guruh: ' Frontend 010',
-                    Status: <button>Active</button>
+                    Status: <button className="btncrud" >Active</button>
+
 
 
                 },
@@ -93,7 +98,8 @@ const Students = () => {
                     nomer: '(225) 555-0118',
                     Tolov: '597 000',
                     Guruh: ' Frontend 010',
-                    Status: "Active"
+                    Status: <button className="btncrudd" >Inactive</button>
+
                 },
                 {
                     key: 7,
@@ -102,7 +108,8 @@ const Students = () => {
                     nomer: '(225) 555-0118',
                     Tolov: '597 000',
                     Guruh: ' Frontend 010',
-                    Status: "Inactive"
+                    Status: <button className="btncrud" >Active</button>
+
 
                 },
                 {
@@ -112,7 +119,8 @@ const Students = () => {
                     nomer: '(225) 555-0118',
                     Tolov: '597 000',
                     Guruh: ' Frontend 010',
-                    Status: "Active"
+                    Status: <button className="btncrud" >Inactive</button>
+
 
                 },
                 {
@@ -122,7 +130,8 @@ const Students = () => {
                     nomer: '(225) 555-0118',
                     Tolov: '597 000',
                     Guruh: ' Frontend 010',
-                    Status: "Active"
+                    Status: <button className="btncrud" >Active</button>
+
                 },
                 {
                     key: 10,
@@ -131,7 +140,8 @@ const Students = () => {
                     nomer: '(225) 555-0118',
                     Tolov: '597 000',
                     Guruh: ' Frontend 010',
-                    Status: "Active"
+                    Status: <button className="btncrudd" >Inactive</button>
+
 
                 },
                 {
@@ -141,7 +151,8 @@ const Students = () => {
                     nomer: '(225) 555-0118',
                     Tolov: '597 000',
                     Guruh: ' Frontend 010',
-                    Status: "Active"
+                    Status: <button className="btncrud" >Active</button>
+
 
                 },
                 {
@@ -151,7 +162,8 @@ const Students = () => {
                     nomer: '(225) 555-0118',
                     Tolov: '597 000',
                     Guruh: ' Frontend 010',
-                    Status: "Active"
+                    Status: <button className="btncrudd" >Inactive</button>
+
                 },
                 {
                     key: 1,
@@ -160,7 +172,8 @@ const Students = () => {
                     nomer: '(225) 555-0118',
                     Tolov: '597 000',
                     Guruh: ' Frontend 010',
-                    Status: "Active"
+                    Status: <button className="btncrud" >Active</button>
+
 
                 },
                 {
@@ -170,7 +183,8 @@ const Students = () => {
                     nomer: '(225) 555-0118',
                     Tolov: '597 000',
                     Guruh: ' Frontend 010',
-                    Status: "Active"
+                    Status: <button className="btncrudd" >Inactive</button>
+
 
                 },
                 {
@@ -180,7 +194,8 @@ const Students = () => {
                     nomer: '(225) 555-0118',
                     Tolov: '597 000',
                     Guruh: ' Frontend 010',
-                    Status: "Active"
+                    Status: <button className="btncrud" >Active</button>
+
                 },
                 {
                     key: 15,
@@ -189,7 +204,8 @@ const Students = () => {
                     nomer: '(225) 555-0118',
                     Tolov: '597 000',
                     Guruh: ' Frontend 010',
-                    Status: "Active"
+                    Status: <button className="btncrudd" >Inactive</button>
+
 
                 },
                 {
@@ -199,7 +215,8 @@ const Students = () => {
                     nomer: '(225) 555-0118',
                     Tolov: '597 000',
                     Guruh: ' Frontend 010',
-                    Status: "Active"
+                    Status: <button className="btncrud" >Active</button>
+
                 },
                 {
                     key: 17,
@@ -208,7 +225,8 @@ const Students = () => {
                     nomer: '(225) 555-0118',
                     Tolov: '597 000',
                     Guruh: ' Frontend 010',
-                    Status: "Active"
+                    Status: <button className="btncrudd" >Inactive</button>
+
 
                 },
                 {
@@ -218,7 +236,8 @@ const Students = () => {
                     nomer: '(225) 555-0118',
                     Tolov: '597 000',
                     Guruh: ' Frontend 010',
-                    Status: "Active"
+                    Status: <button className="btncrudd" >Inactive</button>
+
 
                 },
                 {
@@ -228,7 +247,8 @@ const Students = () => {
                     nomer: '(225) 555-0118',
                     Tolov: '597 000',
                     Guruh: ' Frontend 010',
-                    Status: "Active"
+                    Status: <button className="btncrud" >Active</button>
+
                 },
             ])
         }
@@ -289,10 +309,10 @@ const Students = () => {
                     <input placeholder='Qidiruv' type="text" />
                 </AddBox>
             </NAV>
-         
-            
+
+
             <Hero>
-                
+
                 <HeroChilid>
                     <img src={Img3} alt="" />
                     <TextBox>
@@ -323,16 +343,16 @@ const Students = () => {
                         <p>16% Oylik</p>
                     </TextBox>
                 </HeroChilid>
-            </Hero>  
+            </Hero>
             <Box>
-            <h3>Hamma O’quvchilar</h3>
-            <p>Faol o’quvchilar</p>
-            <InputBox>
-                <input placeholder='Search' onChange={getSearch} />
-                <select placeholder='Short Status:' id="js">
-                    <option placeholder='Short Status :' value="name">Name</option>
-                </select>
-              </InputBox>
+                <h3>Hamma O’quvchilar</h3>
+                <p>Faol o’quvchilar</p>
+                <InputBox>
+                    <input placeholder='Search' onChange={getSearch} />
+                    <select placeholder='Short Status:' id="js">
+                        <option placeholder='Short Status :' value="name">Name</option>
+                    </select>
+                </InputBox>
             </Box>
             <Form component={false}>
                 <AntTable
