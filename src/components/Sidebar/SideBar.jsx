@@ -2,13 +2,13 @@ import { NavLink } from "react-router-dom";
 import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 
-import logo from "../../assest/icons/dashbord.svg";
-import key from "../../assest/icons/key-square.svg";
-import Gruh from "../../assest/icons/gruhlar.svg";
-import Uquvchilar from "../../assest/icons/user.svg";
-import Bugaltera from "../../assest/icons/bugaltera.svg";
-import Sozlamalar from "../../assest/icons/sozlamalar.svg";
-import Xabar from "../../assest/icons/xabar.svg";
+import logo from "../assest/icons/dashbord.svg";
+import key from "../assest/icons/key-square.svg";
+import Gruh from "../assest/icons/gruhlar.svg";
+import Uquvchilar from "../assest/icons/user.svg";
+import Bugaltera from "../assest/icons/bugaltera.svg";
+import Sozlamalar from "../assest/icons/sozlamalar.svg";
+import Xabar from "../assest/icons/xabar.svg";
 
 
 
@@ -143,10 +143,11 @@ const SideBar = ({ children }) => {
             })}
           </section>
         </motion.div>
-
         <main>{children}</main>
       </div>
+
     </>
+
   );
 };
 

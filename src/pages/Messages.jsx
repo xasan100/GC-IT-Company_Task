@@ -1,5 +1,8 @@
+import Students from "../components/Students/index.jsx";
+
+
 const Messages = () => {
-  return <div className="title"> Messages</div>;
+  return <div ><Students/></div>;
 };
 
 export default Messages;
