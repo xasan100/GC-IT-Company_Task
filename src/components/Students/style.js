@@ -134,5 +134,5 @@ gap: 0px 20px;
   height:40px ;
 border-radius: 10px ;
 }
- `
-export default { AntTable,User }
+`
+export default { AntTable, User }

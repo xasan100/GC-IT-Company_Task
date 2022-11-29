@@ -6,7 +6,7 @@ export const data = [
         nomer: '(225) 555-0118',
         Tolov: '597 000',
         Guruh: ' Frontend 010',
-        Status: "Active"
+        Status: <button className="btncrud" >Active</button>
 
     },
     {
@@ -16,7 +16,7 @@ export const data = [
         nomer: '(225) 555-0118',
         Tolov: '597 000',
         Guruh: ' Frontend 010',
-        Status: "Inactive"
+        Status: <button className="btncrudd" >Inactive</button>
 
     },
     {
@@ -26,7 +26,7 @@ export const data = [
         nomer: '(225) 555-0118',
         Tolov: '597 000',
         Guruh: ' Frontend 010',
-        Status: "Active"
+        Status: <button className="btncrud" >Active</button>
     },
     {
         key: 4,
@@ -35,7 +35,8 @@ export const data = [
         nomer: '(225) 555-0118',
         Tolov: '597 000',
         Guruh: ' Frontend 010',
-        Status: "Active"
+        Status: <button className="btncrudd" >Inactive</button>
+
 
     },
     {
@@ -45,7 +46,8 @@ export const data = [
         nomer: '(225) 555-0118',
         Tolov: '597 000',
         Guruh: ' Frontend 010',
-        Status: "Inactive"
+        Status: <button className="btncrud" >Active</button>
+
 
     },
     {
@@ -55,7 +57,7 @@ export const data = [
         nomer: '(225) 555-0118',
         Tolov: '597 000',
         Guruh: ' Frontend 010',
-        Status: "Active"
+        Status: <button className="btncrudd" >Inactive</button>
     },
     {
         key: 7,
@@ -64,7 +66,7 @@ export const data = [
         nomer: '(225) 555-0118',
         Tolov: '597 000',
         Guruh: ' Frontend 010',
-        Status: "Inactive"
+        Status: <button className="btncrud" >Active</button>
 
     },
     {
@@ -74,7 +76,7 @@ export const data = [
         nomer: '(225) 555-0118',
         Tolov: '597 000',
         Guruh: ' Frontend 010',
-        Status: "Active"
+        Status: <button className="btncrud" >Inactive</button>
 
     },
     {
@@ -84,7 +86,7 @@ export const data = [
         nomer: '(225) 555-0118',
         Tolov: '597 000',
         Guruh: ' Frontend 010',
-        Status: "Active"
+        Status: <button className="btncrud" >Active</button>
     },
     {
         key: 10,
@@ -93,7 +95,7 @@ export const data = [
         nomer: '(225) 555-0118',
         Tolov: '597 000',
         Guruh: ' Frontend 010',
-        Status: "Active"
+        Status: <button className="btncrudd" >Inactive</button>
 
     },
     {
@@ -103,7 +105,7 @@ export const data = [
         nomer: '(225) 555-0118',
         Tolov: '597 000',
         Guruh: ' Frontend 010',
-        Status: "Active"
+        Status: <button className="btncrud" >Active</button>
 
     },
     {
@@ -113,7 +115,7 @@ export const data = [
         nomer: '(225) 555-0118',
         Tolov: '597 000',
         Guruh: ' Frontend 010',
-        Status: "Active"
+        Status: <button className="btncrudd" >Inactive</button>
     },
     {
         key: 1,
@@ -122,7 +124,7 @@ export const data = [
         nomer: '(225) 555-0118',
         Tolov: '597 000',
         Guruh: ' Frontend 010',
-        Status: "Active"
+        Status: <button className="btncrud" >Active</button>
 
     },
     {
@@ -132,7 +134,7 @@ export const data = [
         nomer: '(225) 555-0118',
         Tolov: '597 000',
         Guruh: ' Frontend 010',
-        Status: "Active"
+        Status: <button className="btncrudd" >Inactive</button>
 
     },
     {
@@ -142,7 +144,7 @@ export const data = [
         nomer: '(225) 555-0118',
         Tolov: '597 000',
         Guruh: ' Frontend 010',
-        Status: "Active"
+        Status: <button className="btncrud" >Active</button>
     },
     {
         key: 15,
@@ -151,7 +153,7 @@ export const data = [
         nomer: '(225) 555-0118',
         Tolov: '597 000',
         Guruh: ' Frontend 010',
-        Status: "Active"
+        Status: <button className="btncrudd" >Inactive</button>
 
     },
     {
@@ -161,7 +163,7 @@ export const data = [
         nomer: '(225) 555-0118',
         Tolov: '597 000',
         Guruh: ' Frontend 010',
-        Status: "Active"
+        Status: <button className="btncrud" >Active</button>
     },
     {
         key: 17,
@@ -170,7 +172,7 @@ export const data = [
         nomer: '(225) 555-0118',
         Tolov: '597 000',
         Guruh: ' Frontend 010',
-        Status: "Active"
+        Status: <button className="btncrudd" >Inactive</button>
 
     },
     {
@@ -180,7 +182,7 @@ export const data = [
         nomer: '(225) 555-0118',
         Tolov: '597 000',
         Guruh: ' Frontend 010',
-        Status: "Active"
+        Status: <button className="btncrudd" >Inactive</button>
 
     },
     {
@@ -190,6 +192,6 @@ export const data = [
         nomer: '(225) 555-0118',
         Tolov: '597 000',
         Guruh: ' Frontend 010',
-        Status: "Active"
+        Status: <button className="btncrud" >Active</button>
     },
 ];

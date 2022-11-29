@@ -126,3 +126,28 @@ main {
 .icons{
    color: #9197B3 !important; 
 }
+.btncrud{
+  background: rgba(22, 192, 152, 0.38);
+    border: 1px solid #00B087;
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 12px;
+    gap: 10px;
+    width: 100px;
+}
+.btncrudd {
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 12px;
+    gap: 10px;
+    background: #FFC5C5;
+    border: 1px solid #DF0404;
+    border-radius: 4px;
+    width: 100px;
+}

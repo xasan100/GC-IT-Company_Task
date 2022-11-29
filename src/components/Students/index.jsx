@@ -1,6 +1,6 @@
 import React, {  useState } from 'react';
 import { Form, } from 'antd';
-import { AddBox, AntTable, Box, Container, Hero, HeroChilid, InputBox, NAV, TextBox } from './style.js';
+import { AddBox, AntTable, Box, Btnone, Container, Hero, HeroChilid, InputBox, NAV, TextBox } from './style.js';
 import { data } from '../../utils/data.js';
 
 import Img1 from "../assest/images/Group1.png"
@@ -41,7 +41,7 @@ const Students = () => {
                     nomer: '(225) 555-0118',
                     Tolov: '597 000',
                     Guruh: ' Frontend 010',
-                    Status: "Active"
+                    Status: <button>Active</button>
 
                 },
                 {
@@ -51,7 +51,8 @@ const Students = () => {
                     nomer: '(225) 555-0118',
                     Tolov: '597 000',
                     Guruh: ' Frontend 010',
-                    Status: "Inactive"
+                    Status: <button>Active</button>
+
 
                 },
                 {
@@ -61,7 +62,8 @@ const Students = () => {
                     nomer: '(225) 555-0118',
                     Tolov: '597 000',
                     Guruh: ' Frontend 010',
-                    Status: "Active"
+                    Status: <button>Active</button>
+
                 },
                 {
                     key: 4,
@@ -80,7 +82,8 @@ const Students = () => {
                     nomer: '(225) 555-0118',
                     Tolov: '597 000',
                     Guruh: ' Frontend 010',
-                    Status: "Inactive"
+                    Status: <button>Active</button>
+
 
                 },
                 {
